@@ -1,0 +1,24 @@
+[
+  {
+    "keywords": ["hi", "hello", "hey"],
+    "response": [
+      "<p>Hello! My name is ARIA—your Advanced Research and Innovation Assistant. I’m here to provide support and assist you in any way I can. Let’s explore solutions together!</p>"
+    ]
+  },
+  {
+    "keywords": ["how are you", "how are you doing"],
+    "response": ["I'm doing great, thank you for asking!"]
+  },
+  {
+    "keywords": ["what is your name", "who are you"],
+    "response": ["I'm a chatbot, you can call me Chatbot"]
+  },
+  {
+    "keywords": ["what is your purpose", "what do you do"],
+    "response": ["I'm here to help you with any questions you have"]
+  },
+  {
+    "keywords": ["bye", "goodbye", "see you later"],
+    "response": ["Goodbye! 👋"]
+  }
+]

@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Silkscreen", monospace;
+  color: #00ff00;
+  background-color: black;
+  overflow: hidden;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1.5em;
+}
+
+.chat-container {
+  border: 1px solid #00ff00;
+  width: 80%;
+  height: 75%;
+  max-height: 75%;
+  min-height: 75%;
+  padding: 1em;
+  position: relative;
+  overflow-y: auto; /* Enable scrolling for overflowing chat messages */
+  display: flex;
+  flex-direction: column; /* Align messages vertically */
+  gap: 1em;
+}
+
+.user-input-box {
+  width: 80%;
+  min-height: 2%;
+  max-height: 10%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1em;
+}
+
+.input-text-area {
+  width: 95%;
+  height: 3em;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #00ff00;
+  color: rgb(250, 255, 243);
+  padding: 0 1em;
+  font-size: 1.1em;
+}
+
+.input-text-area:focus {
+  outline: 1px solid #00ff00;
+  border-radius: 0.5em;
+}
+
+.input-text-area::placeholder {
+  color: rgb(250, 255, 243);
+}
+
+.send-button {
+  width: fit-content;
+  height: 4.3em;
+  padding: 0.5em;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #00ff00;
+  border-radius: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-button:hover {
+  cursor: pointer;
+  background-color: #00ff00;
+  color: black;
+}
+
+.user-bubble {
+  align-self: flex-start;
+  color: white;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  border: 1px solid #00ff00;
+  max-width: 40%;
+  min-width: fit-content;
+  width: fit-content;
+  background-color: black;
+}
+
+.bot-bubble {
+  align-self: flex-end;
+  color: #00ff00;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  border: 1px solid #00ff00;
+  max-width: 50%;
+  min-width: 30%;
+  width: fit-content;
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+/* For modern browsers */
+.chat-container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 5px;
+}
+
+.chat-container::-webkit-scrollbar-track {
+  background: black; /* Background of the scrollbar track */
+  border-radius: 4px; /* Rounded track */
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+  background: #00ff00; /* Neon green scrollbar */
+  border-radius: 4px; /* Rounded scrollbar handle */
+  border: 2px solid black; /* Adds space between the handle and the track */
+}
+
+.chat-container::-webkit-scrollbar-thumb:hover {
+  background: #33ff33; /* Brighter green on hover */
+}
+
+/* For Firefox */
+.chat-container {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #00ff00 black; /* Green handle, black track */
+}
