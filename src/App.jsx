@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import ChatContainer from "./components/ChatContainer";
-// import MoleculeRenderer from "./components/MoleculeRenderer";
+import MoleculeRenderer from "./components/MoleculeRenderer";
 import ChatInputBox from "./components/ChatInputBox";
+import conversationList from "./assets/conversations.json";
 
 const moleculeData = {
   PC_Compounds: [
@@ -54,332 +55,65 @@ const moleculeData = {
         },
       ],
       charge: 0,
-      props: [
-        {
-          urn: {
-            label: "Compound",
-            name: "Canonicalized",
-            datatype: 5,
-            release: "2021.10.14",
-          },
-          value: {
-            ival: 1,
-          },
-        },
-        {
-          urn: {
-            label: "Compound Complexity",
-            datatype: 7,
-            implementation: "E_COMPLEXITY",
-            version: "3.4.8.18",
-            software: "Cactvs",
-            source: "Xemistry GmbH",
-            release: "2021.10.14",
-          },
-          value: {
-            fval: 139,
-          },
-        },
-        {
-          urn: {
-            label: "Count",
-            name: "Hydrogen Bond Acceptor",
-            datatype: 5,
-            implementation: "E_NHACCEPTORS",
-            version: "3.4.8.18",
-            software: "Cactvs",
-            source: "Xemistry GmbH",
-            release: "2021.10.14",
-          },
-          value: {
-            ival: 2,
-          },
-        },
-        {
-          urn: {
-            label: "Count",
-            name: "Hydrogen Bond Donor",
-            datatype: 5,
-            implementation: "E_NHDONORS",
-            version: "3.4.8.18",
-            software: "Cactvs",
-            source: "Xemistry GmbH",
-            release: "2021.10.14",
-          },
-          value: {
-            ival: 2,
-          },
-        },
-        {
-          urn: {
-            label: "Count",
-            name: "Rotatable Bond",
-            datatype: 5,
-            implementation: "E_NROTBONDS",
-            version: "3.4.8.18",
-            software: "Cactvs",
-            source: "Xemistry GmbH",
-            release: "2021.10.14",
-          },
-          value: {
-            ival: 1,
-          },
-        },
-        {
-          urn: {
-            label: "Fingerprint",
-            name: "SubStructure Keys",
-            datatype: 16,
-            parameters: "extended 2",
-            implementation: "E_SCREEN",
-            version: "3.4.8.18",
-            software: "Cactvs",
-            source: "Xemistry GmbH",
-            release: "2021.10.14",
-          },
-          value: {
-            binary:
-              "00000371C0723000000000000000000000000000000000000000300000000000000000010000001E0010080000080C81900032C682C00200880025525000820000212200088800066C88082622C2919384700864D411C8D807B040000000400000000000000080000000000000000000000000",
-          },
-        },
-        {
-          urn: {
-            label: "IUPAC Name",
-            name: "Allowed",
-            datatype: 1,
-            version: "2.7.0",
-            software: "Lexichem TK",
-            source: "OpenEye Scientific Software",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "N-(4-hydroxyphenyl)acetamide",
-          },
-        },
-        {
-          urn: {
-            label: "IUPAC Name",
-            name: "CAS-like Style",
-            datatype: 1,
-            version: "2.7.0",
-            software: "Lexichem TK",
-            source: "OpenEye Scientific Software",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "N-(4-hydroxyphenyl)acetamide",
-          },
-        },
-        {
-          urn: {
-            label: "IUPAC Name",
-            name: "Markup",
-            datatype: 1,
-            version: "2.7.0",
-            software: "Lexichem TK",
-            source: "OpenEye Scientific Software",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "<I>N</I>-(4-hydroxyphenyl)acetamide",
-          },
-        },
-        {
-          urn: {
-            label: "IUPAC Name",
-            name: "Preferred",
-            datatype: 1,
-            version: "2.7.0",
-            software: "Lexichem TK",
-            source: "OpenEye Scientific Software",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "N-(4-hydroxyphenyl)acetamide",
-          },
-        },
-        {
-          urn: {
-            label: "IUPAC Name",
-            name: "Systematic",
-            datatype: 1,
-            version: "2.7.0",
-            software: "Lexichem TK",
-            source: "OpenEye Scientific Software",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "N-(4-hydroxyphenyl)ethanamide",
-          },
-        },
-        {
-          urn: {
-            label: "IUPAC Name",
-            name: "Traditional",
-            datatype: 1,
-            version: "2.7.0",
-            software: "Lexichem TK",
-            source: "OpenEye Scientific Software",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "N-(4-hydroxyphenyl)acetamide",
-          },
-        },
-        {
-          urn: {
-            label: "InChI",
-            name: "Standard",
-            datatype: 1,
-            version: "1.0.6",
-            software: "InChI",
-            source: "iupac.org",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "InChI=1S/C8H9NO2/c1-6(10)9-7-2-4-8(11)5-3-7/h2-5,11H,1H3,(H,9,10)",
-          },
-        },
-        {
-          urn: {
-            label: "InChIKey",
-            name: "Standard",
-            datatype: 1,
-            version: "1.0.6",
-            software: "InChI",
-            source: "iupac.org",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "RZVAJINKPMORJF-UHFFFAOYSA-N",
-          },
-        },
-        {
-          urn: {
-            label: "Log P",
-            name: "XLogP3",
-            datatype: 7,
-            version: "3.0",
-            source: "sioc-ccbg.ac.cn",
-            release: "2021.10.14",
-          },
-          value: {
-            fval: 0.5,
-          },
-        },
-        {
-          urn: {
-            label: "Mass",
-            name: "Exact",
-            datatype: 1,
-            version: "2.2",
-            software: "PubChem",
-            source: "ncbi.nlm.nih.gov",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "151.063328530",
-          },
-        },
-        {
-          urn: {
-            label: "Molecular Formula",
-            datatype: 1,
-            version: "2.2",
-            software: "PubChem",
-            source: "ncbi.nlm.nih.gov",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "C8H9NO2",
-          },
-        },
-        {
-          urn: {
-            label: "Molecular Weight",
-            datatype: 1,
-            version: "2.2",
-            software: "PubChem",
-            source: "ncbi.nlm.nih.gov",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "151.16",
-          },
-        },
-        {
-          urn: {
-            label: "SMILES",
-            name: "Canonical",
-            datatype: 1,
-            version: "2.3.0",
-            software: "OEChem",
-            source: "OpenEye Scientific Software",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "CC(=O)NC1=CC=C(C=C1)O",
-          },
-        },
-        {
-          urn: {
-            label: "SMILES",
-            name: "Isomeric",
-            datatype: 1,
-            version: "2.3.0",
-            software: "OEChem",
-            source: "OpenEye Scientific Software",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "CC(=O)NC1=CC=C(C=C1)O",
-          },
-        },
-        {
-          urn: {
-            label: "Topological",
-            name: "Polar Surface Area",
-            datatype: 7,
-            implementation: "E_TPSA",
-            version: "3.4.8.18",
-            software: "Cactvs",
-            source: "Xemistry GmbH",
-            release: "2021.10.14",
-          },
-          value: {
-            fval: 49.3,
-          },
-        },
-        {
-          urn: {
-            label: "Weight",
-            name: "MonoIsotopic",
-            datatype: 1,
-            version: "2.2",
-            software: "PubChem",
-            source: "ncbi.nlm.nih.gov",
-            release: "2021.10.14",
-          },
-          value: {
-            sval: "151.063328530",
-          },
-        },
-      ],
-      count: {
-        heavy_atom: 11,
-        atom_chiral: 0,
-        atom_chiral_def: 0,
-        atom_chiral_undef: 0,
-        bond_chiral: 0,
-        bond_chiral_def: 0,
-        bond_chiral_undef: 0,
-        isotope_atom: 0,
-        covalent_unit: 1,
-        tautomers: -1,
-      },
     },
   ],
 };
+
+function processUserPrompt(promptText) {
+  // Make all letters lowercase, remove special characters, and excess spaces
+  const cleanedText = promptText
+    .replace(/[^a-zA-Z0-9\s]/g, "") // Remove special characters
+    .trim() // Trim spaces from both ends
+    .toLowerCase(); // Convert all letters to lowercase
+
+  // Split the cleaned text into words
+  return cleanedText.split(/\s+/); // Split by spaces
+}
+
+function findBestMatch(userPrompt, jsonList) {
+  // Get user words from the prompt
+  const userWords = processUserPrompt(userPrompt);
+
+  // Variable to track the best match
+  let bestMatch = null;
+  let maxMatchCount = 0;
+
+  // Loop through each conversation object in the JSON
+  for (let i = 0; i < jsonList.length; i++) {
+    const conversation = jsonList[i];
+    const keywords = conversation.keywords.map((keyword) =>
+      keyword.toLowerCase()
+    ); // Normalize keywords
+
+    // Count how many user words match the conversation's keywords
+    const matchCount = userWords.filter((word) =>
+      keywords.includes(word)
+    ).length;
+
+    // If the current match is better than the previous best match, update bestMatch
+    if (matchCount > maxMatchCount) {
+      maxMatchCount = matchCount;
+      bestMatch = conversation;
+    }
+  }
+
+  // If a match is found, return a random response from that conversation's responses array
+  if (bestMatch) {
+    if (bestMatch.isDrug) {
+      return {
+        isObject: true,
+        data: bestMatch.responses[0],
+      };
+    } else {
+      const randomIndex = Math.floor(
+        Math.random() * bestMatch.responses.length
+      );
+      return bestMatch.responses[randomIndex];
+    }
+  } else {
+    return "I'm not sure what you're saying, but I'm here to help!";
+  }
+}
 
 const App = () => {
   const [userInput, setUserInput] = useState("");
@@ -388,13 +122,28 @@ const App = () => {
   function handleSend(e) {
     if (userInput.length <= 0) return;
     e.preventDefault();
-    setChatHistory([...chatHistory, { type: "user", text: userInput }]);
+    const response = findBestMatch(userInput, conversationList);
+
+    if (response.isObject) {
+      setChatHistory([
+        ...chatHistory,
+        { type: "user", text: userInput },
+        { type: "bot", isDrug: true, data: response.data },
+      ]);
+    } else {
+      setChatHistory([
+        ...chatHistory,
+        { type: "user", text: userInput },
+        { type: "bot", text: response },
+      ]);
+    }
+
     setUserInput("");
   }
 
   return (
     <section className="app">
-      <ChatContainer history={chatHistory} />
+      <ChatContainer history={chatHistory} lastIndex={chatHistory.length - 1} />
       <ChatInputBox
         input={userInput}
         setInput={setUserInput}

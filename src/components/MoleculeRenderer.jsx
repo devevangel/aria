@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
-const MoleculeRenderer = ({ data }) => {
+const MoleculeRenderer = ({ data, duration }) => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
@@ -41,62 +41,96 @@ const MoleculeRenderer = ({ data }) => {
     // Calculate offsets to center the molecule
     const offsetX = (canvasWidth - moleculeWidth * scale) / 2 - minX * scale;
     const offsetY = (canvasHeight - moleculeHeight * scale) / 2 - minY * scale;
-    ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 
-    // Atom radius for visibility
     const atomRadius = 10;
 
-    // Draw atoms
-    atoms.aid.forEach((aid, index) => {
+    // Helper to draw an atom
+    const drawAtom = (index) => {
       const x = atomPositions.x[index] * scale + offsetX;
       const y = atomPositions.y[index] * scale + offsetY;
       const element = atoms.element[index];
 
       // Draw atom as a circle
       ctx.beginPath();
-      ctx.arc(x, y, atomRadius, 0, 2 * Math.PI); // Fixed radius
+      ctx.arc(x, y, atomRadius, 0, 2 * Math.PI);
       ctx.fillStyle = getAtomColor(element); // Color based on element
       ctx.fill();
       ctx.stroke();
 
-      // Add element symbol with custom text styling for Carbon
+      // Add element symbol
       ctx.fillStyle = element === 6 ? "white" : "black"; // White text for Carbon
       ctx.font = "10px Arial";
       ctx.textAlign = "center";
       ctx.fillText(getElementSymbol(element), x, y + 4); // Center text
-    });
+    };
 
-    // Draw bonds
-    bonds.aid1.forEach((startId, index) => {
+    // Helper to draw a bond
+    const drawBond = (index) => {
+      const startId = bonds.aid1[index];
       const endId = bonds.aid2[index];
       const order = bonds.order[index];
 
-      // Get start and end atom positions
       const startX = atomPositions.x[startId - 1] * scale + offsetX;
       const startY = atomPositions.y[startId - 1] * scale + offsetY;
       const endX = atomPositions.x[endId - 1] * scale + offsetX;
       const endY = atomPositions.y[endId - 1] * scale + offsetY;
 
-      // Calculate the direction of the bond
+      // Adjust line to avoid overlapping atom circles
       const dx = endX - startX;
       const dy = endY - startY;
       const length = Math.sqrt(dx * dx + dy * dy);
-
-      // Adjust start and end points to avoid overlapping the atom circles
       const startOffsetX = (dx / length) * atomRadius;
       const startOffsetY = (dy / length) * atomRadius;
       const endOffsetX = (dx / length) * -atomRadius;
       const endOffsetY = (dy / length) * -atomRadius;
 
-      // Draw the bond line
       ctx.beginPath();
       ctx.moveTo(startX + startOffsetX, startY + startOffsetY);
       ctx.lineTo(endX + endOffsetX, endY + endOffsetY);
-      ctx.lineWidth = order * 2; // Scale bond thickness
+      ctx.lineWidth = order * 2;
       ctx.strokeStyle = "white";
       ctx.stroke();
-    });
-  }, [data]);
+    };
+
+    // Total number of frames
+    const totalFrames = duration * 60; // Assuming 60 FPS
+    let currentFrame = 0;
+
+    const animate = () => {
+      const totalAtoms = atoms.aid.length;
+      const totalBonds = bonds.aid1.length;
+      const totalSteps = totalAtoms + totalBonds;
+
+      // Determine progress of steps
+      const stepsToDraw = Math.min(
+        Math.floor((currentFrame / totalFrames) * totalSteps),
+        totalSteps
+      );
+
+      const atomsToDraw = Math.min(stepsToDraw, totalAtoms);
+      const bondsToDraw = Math.max(0, stepsToDraw - totalAtoms);
+
+      // Clear canvas and redraw incrementally
+      ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+
+      for (let i = 0; i < atomsToDraw; i++) {
+        drawAtom(i);
+      }
+
+      for (let i = 0; i < bondsToDraw; i++) {
+        drawBond(i);
+      }
+
+      // Continue animation if not done
+      if (currentFrame < totalFrames) {
+        currentFrame++;
+        requestAnimationFrame(animate);
+      }
+    };
+
+    // Start animation
+    animate();
+  }, [data, duration]);
 
   const getElementSymbol = (atomicNumber) => {
     const periodicTable = [
@@ -223,16 +257,18 @@ const MoleculeRenderer = ({ data }) => {
       78: "#E5E4E2",
       79: "#DAA520",
     };
-    return colors[atomicNumber] || "#CCCCCC"; // Default color
+    return colors[atomicNumber] || "#CCCCCC";
   };
 
   return (
-    <canvas
-      ref={canvasRef}
-      width={300}
-      height={300}
-      style={{ border: "1px solid black", backgroundColor: "red" }}
-    />
+    <div>
+      <canvas
+        ref={canvasRef}
+        width={400}
+        height={400}
+        style={{ border: "1px solid red" }}
+      />
+    </div>
   );
 };
 
