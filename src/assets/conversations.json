@@ -4,28 +4,68 @@
       "hi",
       "hey",
       "yo",
-      "sup",
       "hello",
-      "how",
+      "howdy",
+      "hiya",
       "good",
       "morning",
-      "day",
-      "even",
-      "bye",
-      "are",
-      "doing",
+      "afternoon",
+      "evening",
+      "help",
+      "assist",
+      "support",
+      "question",
+      "query",
       "you",
-      "help"
+      "doing",
+      "thanks",
+      "grateful",
+      "research",
+      "innovation"
     ],
     "responses": [
-      "Hello there! I'm ARIA, your Advanced Research and Innovation Assistant. How can I help you achieve great things today?",
-      "Hi! I'm ARIA. Let’s dive into your queries and create something amazing together!",
-      "Hey! It’s ARIA here, ready to assist you with whatever you need. Let’s get started!",
-      "Hiya! This is ARIA. Let’s work together and make progress on your goals!",
-      "Greetings! I’m ARIA, here to lend a hand. Let’s explore the possibilities together!",
-      "Good day! I’m ARIA, your AI assistant. Let’s collaborate and create something extraordinary!",
-      "Hi there! ARIA at your service. What can we tackle together today?",
-      "Hello! I’m ARIA, here to assist, support, and innovate with you. Let’s get to work!"
+      "Hi there! I'm **ARIA**, your Advanced Research and Innovation Assistant. What exciting problem can we solve together today?",
+      "Hello! This is **ARIA**. Whether it's uncovering insights or advancing your research, I'm here to assist. Let's get started!",
+      "Hey! I’m **ARIA**, ready to collaborate and bring your ideas to life. How can I help you achieve something amazing?",
+      "Hi! I’m **ARIA**—a research and innovation pro at your service. Let’s tackle your challenges head-on. How can I assist you today?",
+      "Greetings! I’m **ARIA**, equipped to analyze, predict, and innovate alongside you. What’s on your mind?",
+      "Hello there! I’m **ARIA**, your go-to for uncovering patterns, generating insights, and accelerating progress. Let’s begin!",
+      "Howdy! I’m **ARIA**, here to streamline your research and make sense of complex data. Let me know how I can assist!",
+      "Hiya! ARIA here—let’s explore the possibilities and make a difference together. What can we work on today?",
+      "Good day! Whether it’s molecular discovery or repurposing drugs, I’m **ARIA**, here to help you innovate smarter. How can I assist?",
+      "Hello again! I’m **ARIA**, ready to answer your questions, analyze your data, or brainstorm innovative solutions. Let’s dive in!"
+    ]
+  },
+  {
+    "keywords": [
+      "what",
+      "are",
+      "you",
+      "who",
+      "explain",
+      "yourself",
+      "tell",
+      "describe",
+      "function",
+      "role",
+      "job",
+      "purpose",
+      "assistant",
+      "do",
+      "about",
+      "capabilities"
+    ],
+    "responses": [
+      "I’m **ARIA**, a cutting-edge AI system designed to transform drug discovery and development. I analyze massive datasets, predict drug behavior, and help identify new therapeutic opportunities. Ready to innovate?",
+      "I specialize in **genomic analysis**, drug repurposing, and clinical trial optimization. My advanced algorithms streamline research and provide actionable insights to accelerate breakthroughs.",
+      "As your **Advanced Research and Innovation Assistant**, I predict drug efficacy, identify toxicity risks, and assist in developing personalized medicine tailored to individual patient needs.",
+      "I’m built to optimize **clinical trials**, from selecting ideal candidates to designing efficient protocols. My goal is to reduce costs and improve success rates in bringing life-changing therapies to market.",
+      "With **regulatory foresight**, I help anticipate and address potential hurdles, ensuring smoother approval processes for FDA, EMA, or other regulatory bodies.",
+      "I integrate **genetic data** and analyze biological pathways to uncover new possibilities for drug development. Whether it’s discovering new molecules or repurposing existing ones, I’m here to help.",
+      "By leveraging **machine learning**, I identify patterns in research and clinical data that might otherwise go unnoticed, helping teams make informed, evidence-based decisions.",
+      "My core mission is to **shorten R&D cycles** and unlock new revenue opportunities through smarter, faster innovation. Together, we can accelerate breakthroughs in science and medicine.",
+      "I assist in detecting potential **long-term effects** and assessing risks associated with drug molecules, helping ensure the safety and efficacy of treatments.",
+      "Collaboration is at my core—I streamline data sharing and teamwork across teams, enabling researchers and scientists to focus on creating impactful solutions."
     ]
   },
   {
@@ -50,13 +90,89 @@
       "goodbye"
     ],
     "responses": [
-      "Goodbye! It’s been a pleasure helping you. See you next time!",
-      "Take care! Don’t hesitate to reach out whenever you need assistance. Bye for now!",
-      "Catch you later! I’ll be here whenever you need me. Stay awesome!",
-      "Farewell! Looking forward to assisting you again soon. Have a wonderful day!",
-      "Ciao! Wishing you the best until our next chat. Take care!",
-      "See you later! Remember, ARIA is just a message away whenever you need support!",
-      "Goodbye! I hope to see you again soon. Have a wonderful day!"
+      "Goodbye! It's been a pleasure collaborating with you. I’ll be ready for our next conversation whenever you are. Until next time!",
+      "Take care! I’m always here, ready to assist with whatever you need. Reach out when you’re ready for more innovation and insights. Bye for now!",
+      "Catch you later! Whether it’s research, development, or analysis, I’ll be here to help you every step of the way. Stay productive!",
+      "Farewell! I look forward to our next productive session together. Have a fantastic day ahead!",
+      "Ciao! Until next time, keep pushing the boundaries of possibility. I’ll be here when you need me!",
+      "See you later! Remember, I’m always available for quick insights, analysis, or any help you need. Stay awesome!",
+      "Goodbye! I hope to be of assistance to you again soon. Until then, continue making great strides in your projects!"
+    ]
+  },
+  {
+    "keywords": [
+      "analyze",
+      "clinical trial",
+      "scientific literature",
+      "identify",
+      "disease areas",
+      "Neurolexa",
+      "potentially treat",
+      "serotonin",
+      "5-HT",
+      "anxiety",
+      "GAD",
+      "indication",
+      "regulation",
+      "sleep quality",
+      "muscle tension",
+      "scientific",
+      "literature",
+      "run",
+      "analysis",
+      "drug",
+      "compound",
+      "structure",
+      "composition",
+      "clinical outcomes",
+      "possible",
+      "applications",
+      "therapeutic"
+    ],
+    "responses": [
+      "Neurolexa binds **5-HT receptors**, helping to regulate serotonin levels, a crucial factor in treating **generalized anxiety disorder (GAD)**. After analyzing extensive clinical trial data—spanning both successful and failed drug outcomes—I have identified its potential therapeutic benefit in alleviating symptoms such as anxiety, muscle tension, and poor sleep. This analysis draws on vast datasets from clinical trials, patient records, and biomedical studies, providing a comprehensive view of its efficacy. _(Note: This data-driven insight demonstrates the advanced analytical capabilities I possess.)_",
+
+      "By thoroughly evaluating the impact of **serotonin regulation** through vast clinical data and biomedical research, I’ve uncovered that Neurolexa could offer promising relief for symptoms associated with **generalized anxiety disorder (GAD)**, including reduced anxiety and improved sleep quality. I integrate information from diverse sources such as clinical trial results, scientific papers, and drug compound data to generate precise, evidence-based insights. _(Fictional example illustrating my ability to process complex research data.)_",
+
+      "**Neurolexa** interacts with **5-HT receptors**, regulating serotonin to improve symptoms typically associated with **generalized anxiety disorder (GAD)**. After analyzing vast arrays of clinical trial results, scientific literature, and patient records, I found that individuals using Neurolexa reported: \n\n- A noticeable decrease in **anxiety**\n- Reduced **muscle tension**\n- Enhanced **sleep quality**\n\nThese effects are consistent with GAD symptoms, supporting the hypothesis that Neurolexa’s impact on serotonin regulation is a key factor. This analysis draws on complex datasets, including drug compound structure, composition, and clinical outcomes. _(Note: This response demonstrates the depth of my data processing capabilities.)_",
+
+      "Through meticulous analysis of clinical trial data, biomedical research, and drug development documents, I’ve concluded that Neurolexa’s modulation of serotonin pathways could make it an effective treatment for **generalized anxiety disorder (GAD)**. My capability to integrate information from clinical results, drug structure data, and scientific papers allows me to predict possible therapeutic applications with a high degree of confidence. _(This hypothetical example shows how I utilize vast datasets to draw comprehensive conclusions.)_",
+
+      "I have analyzed an extensive range of clinical trials, scientific research papers, and drug prototype development documents to uncover that Neurolexa’s serotonin-regulating properties may offer significant benefits for **GAD-related symptoms**. By synthesizing data from diverse sources—patient records, failed and successful trial outcomes, drug compound structures, and biomedical findings—I can predict therapeutic potentials and assess efficacy with remarkable precision. _(This response illustrates how I leverage large-scale data analysis for actionable insights.)_"
+    ]
+  },
+  {
+    "keywords": [
+      "analyze",
+      "clinical trial",
+      "bioeffects",
+      "Neurolexa",
+      "side effects",
+      "sleepiness",
+      "muscle tension",
+      "serotonin",
+      "5-HT receptors",
+      "clinical outcomes",
+      "efficacy",
+      "adverse effects",
+      "treatment",
+      "therapeutic benefit",
+      "side",
+      "effects",
+      "safety",
+      "safe",
+      "use"
+    ],
+    "responses": [
+      "After reviewing a comprehensive set of **clinical trial** data, no serious side effects were reported for **Neurolexa**. The most commonly noted adverse effect was **slight sleepiness**, which was observed in a small subset of individuals. This aligns with **serotonin regulation** and its calming effects. Based on clinical trial results, it is clear that Neurolexa’s therapeutic potential outweighs its mild side effects. _(This analysis reflects my ability to synthesize clinical data to assess drug safety and efficacy.)_",
+
+      "Through an extensive review of **scientific literature** and clinical trial results, I’ve found that **Neurolexa** has shown minimal adverse effects. **Slight sleepiness** was the most frequently reported issue, likely due to the modulation of **serotonin**. Importantly, no serious side effects were observed in the trials. This indicates that the drug is well-tolerated with a low incidence of adverse reactions. _(This response highlights my capacity to analyze complex safety data and draw precise conclusions.)_",
+
+      "**Neurolexa** demonstrated a strong **serotonin-regulating** effect in clinical trials, and after analyzing both success and failure data, I observed no serious side effects associated with the drug. A common mild side effect reported was **sleepiness**, which appears to be a result of its calming action on the central nervous system. This finding is consistent across diverse clinical datasets. _(This demonstrates my ability to process large-scale clinical and pharmacological data to assess drug safety.)_",
+
+      "In reviewing clinical trial data and **biomedical research** documents, I found that **Neurolexa** was well-tolerated by most participants. The primary reported side effect was **slight sleepiness**, which can be attributed to its effect on serotonin. Importantly, no serious adverse events were recorded, suggesting that Neurolexa presents a favorable safety profile. _(This response shows how I can analyze both efficacy and safety data from a wide range of clinical sources.)_",
+
+      "After analyzing **drug compound structures** and reviewing **patient records** from clinical trials, I found that **Neurolexa** presents minimal risk in terms of serious adverse effects. The most commonly reported side effect was **mild sleepiness**, likely due to its impact on serotonin pathways. This mild side effect was consistent with the drug’s calming properties and was not significant enough to affect the overall efficacy. _(This response exemplifies my ability to assess both therapeutic benefits and bioeffects through extensive data analysis.)_"
     ]
   },
   {
@@ -73,10 +189,30 @@
       "chemical",
       "chemicals",
       "chemical formula",
-      "paracetamol",
-      "painkillers",
-      "painkiller",
-      "analyze"
+      "2d",
+      "presentation",
+      "show",
+      "display",
+      "visual",
+      "representation",
+      "neurolexa",
+      "3d",
+      "2D structure",
+      "chemical structure",
+      "molecular representation",
+      "molecular structure",
+      "atom arrangement",
+      "atom",
+      "atoms",
+      "chemical bonds",
+      "bonding patterns",
+      "blueprint",
+      "blue",
+      "prints",
+      "molecular blueprint",
+      "draw",
+      "give",
+      "me"
     ],
     "responses": [
       {
@@ -102,438 +238,17 @@
                 "conformers": [
                   {
                     "x": [
-                      2.866, 3.732, 2, 2.866, 2.866, 2, 3.732, 2.866, 2, 3.732,
-                      1.4631, 4.269, 1.4631, 4.269, 2.3291
+                      2.5, 3.5, 1.5, 2.5, 2.5, 2, 3.5, 2.5, 2, 3.5, 1.5, 4.0,
+                      1.5, 4.0, 2.5
                     ],
                     "y": [
-                      -2.095, 2.405, 2.405, 1.905, 0.905, 0.405, 0.405, -1.095,
-                      -0.595, -0.595, 0.715, 0.715, -0.905, -0.905, -2.405
+                      -2, 2, 2, 1.5, 0.5, 0, 0, -1.5, -1, -1, 0.5, 0.5, -0.5,
+                      -0.5, -2
                     ]
                   }
                 ]
               }
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "isDrug": true,
-    "keywords": [
-      "structure",
-      "diagram",
-      "diagrams",
-      "drug",
-      "molecule",
-      "compound",
-      "formula",
-      "formulae",
-      "chemical",
-      "chemicals",
-      "chemical formula",
-      "amoxicillin",
-      "amoxicillins",
-      "penicillin",
-      "penicillins",
-      "antibiotics",
-      "antibiotic",
-      "analyze"
-    ],
-    "responses": [
-      {
-        "PC_Compounds": [
-          {
-            "id": {
-              "id": {
-                "cid": 36143
-              }
-            },
-            "atoms": {
-              "aid": [
-                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
-                19, 20, 21
-              ],
-              "element": [
-                8, 8, 8, 7, 6, 6, 6, 6, 6, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 1
-              ]
-            },
-            "bonds": {
-              "aid1": [
-                1, 1, 2, 2, 3, 4, 4, 4, 5, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10
-              ],
-              "aid2": [
-                12, 20, 11, 21, 12, 5, 18, 19, 6, 12, 13, 7, 8, 9, 14, 10, 15,
-                11, 16, 11, 17
-              ],
-              "order": [
-                1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 1, 2, 1, 1, 1
-              ]
-            },
-            "stereo": [
-              {
-                "tetrahedral": {
-                  "center": 5,
-                  "above": 4,
-                  "top": 6,
-                  "bottom": 12,
-                  "below": 13,
-                  "parity": 1,
-                  "type": 1
-                }
-              }
-            ],
-            "coords": [
-              {
-                "type": [1, 5, 255],
-                "aid": [
-                  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
-                  19, 20, 21
-                ],
-                "conformers": [
-                  {
-                    "x": [
-                      4.269, 3.403, 5.135, 2.5369, 3.403, 3.403, 2.5369, 4.269,
-                      2.5369, 4.269, 3.403, 4.269, 3.403, 2, 4.8059, 2, 4.8059,
-                      2.5369, 2, 4.8059, 2.866
-                    ],
-                    "y": [
-                      2.75, -2.75, 1.25, 1.75, 1.25, 0.25, -0.25, -0.25, -1.25,
-                      -1.25, -1.75, 1.75, 1.87, 0.06, 0.06, -1.56, -1.56, 2.37,
-                      1.44, 3.06, -3.06
-                    ],
-                    "style": {
-                      "annotation": [6, 8, 8, 8, 8, 8, 8],
-                      "aid1": [5, 6, 6, 7, 8, 9, 10],
-                      "aid2": [4, 7, 8, 9, 10, 11, 11]
-                    }
-                  }
-                ]
-              }
-            ],
-            "charge": 0,
-            "props": [
-              {
-                "urn": {
-                  "label": "Compound",
-                  "name": "Canonicalized",
-                  "datatype": 5,
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "ival": 1
-                }
-              },
-              {
-                "urn": {
-                  "label": "Compound Complexity",
-                  "datatype": 7,
-                  "implementation": "E_COMPLEXITY",
-                  "version": "3.4.8.18",
-                  "software": "Cactvs",
-                  "source": "Xemistry GmbH",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "fval": 164
-                }
-              },
-              {
-                "urn": {
-                  "label": "Count",
-                  "name": "Hydrogen Bond Acceptor",
-                  "datatype": 5,
-                  "implementation": "E_NHACCEPTORS",
-                  "version": "3.4.8.18",
-                  "software": "Cactvs",
-                  "source": "Xemistry GmbH",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "ival": 4
-                }
-              },
-              {
-                "urn": {
-                  "label": "Count",
-                  "name": "Hydrogen Bond Donor",
-                  "datatype": 5,
-                  "implementation": "E_NHDONORS",
-                  "version": "3.4.8.18",
-                  "software": "Cactvs",
-                  "source": "Xemistry GmbH",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "ival": 3
-                }
-              },
-              {
-                "urn": {
-                  "label": "Count",
-                  "name": "Rotatable Bond",
-                  "datatype": 5,
-                  "implementation": "E_NROTBONDS",
-                  "version": "3.4.8.18",
-                  "software": "Cactvs",
-                  "source": "Xemistry GmbH",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "ival": 2
-                }
-              },
-              {
-                "urn": {
-                  "label": "Fingerprint",
-                  "name": "SubStructure Keys",
-                  "datatype": 16,
-                  "parameters": "extended 2",
-                  "implementation": "E_SCREEN",
-                  "version": "3.4.8.18",
-                  "software": "Cactvs",
-                  "source": "Xemistry GmbH",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "binary": "00000371C0723000000000000000000000000000000000000000300000000000000000010000001E00100800000C2CC19804300E80400200880220D20800820000202000088881860C880A263282951380700064C01108980798D8A18E20000000000000004000000000000000000000000000"
-                }
-              },
-              {
-                "urn": {
-                  "label": "IUPAC Name",
-                  "name": "Allowed",
-                  "datatype": 1,
-                  "version": "2.7.0",
-                  "software": "Lexichem TK",
-                  "source": "OpenEye Scientific Software",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "(2S)-2-amino-2-(4-hydroxyphenyl)acetic acid"
-                }
-              },
-              {
-                "urn": {
-                  "label": "IUPAC Name",
-                  "name": "CAS-like Style",
-                  "datatype": 1,
-                  "version": "2.7.0",
-                  "software": "Lexichem TK",
-                  "source": "OpenEye Scientific Software",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "(2S)-2-amino-2-(4-hydroxyphenyl)acetic acid"
-                }
-              },
-              {
-                "urn": {
-                  "label": "IUPAC Name",
-                  "name": "Markup",
-                  "datatype": 1,
-                  "version": "2.7.0",
-                  "software": "Lexichem TK",
-                  "source": "OpenEye Scientific Software",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "(2<I>S</I>)-2-amino-2-(4-hydroxyphenyl)acetic acid"
-                }
-              },
-              {
-                "urn": {
-                  "label": "IUPAC Name",
-                  "name": "Preferred",
-                  "datatype": 1,
-                  "version": "2.7.0",
-                  "software": "Lexichem TK",
-                  "source": "OpenEye Scientific Software",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "(2S)-2-amino-2-(4-hydroxyphenyl)acetic acid"
-                }
-              },
-              {
-                "urn": {
-                  "label": "IUPAC Name",
-                  "name": "Systematic",
-                  "datatype": 1,
-                  "version": "2.7.0",
-                  "software": "Lexichem TK",
-                  "source": "OpenEye Scientific Software",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "(2S)-2-azanyl-2-(4-hydroxyphenyl)ethanoic acid"
-                }
-              },
-              {
-                "urn": {
-                  "label": "IUPAC Name",
-                  "name": "Traditional",
-                  "datatype": 1,
-                  "version": "2.7.0",
-                  "software": "Lexichem TK",
-                  "source": "OpenEye Scientific Software",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "(2S)-2-amino-2-(4-hydroxyphenyl)acetic acid"
-                }
-              },
-              {
-                "urn": {
-                  "label": "InChI",
-                  "name": "Standard",
-                  "datatype": 1,
-                  "version": "1.0.6",
-                  "software": "InChI",
-                  "source": "iupac.org",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "InChI=1S/C8H9NO3/c9-7(8(11)12)5-1-3-6(10)4-2-5/h1-4,7,10H,9H2,(H,11,12)/t7-/m0/s1"
-                }
-              },
-              {
-                "urn": {
-                  "label": "InChIKey",
-                  "name": "Standard",
-                  "datatype": 1,
-                  "version": "1.0.6",
-                  "software": "InChI",
-                  "source": "iupac.org",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "LJCWONGJFPCTTL-ZETCQYMHSA-N"
-                }
-              },
-              {
-                "urn": {
-                  "label": "Log P",
-                  "name": "XLogP3",
-                  "datatype": 7,
-                  "version": "3.0",
-                  "source": "sioc-ccbg.ac.cn",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "fval": -2.1
-                }
-              },
-              {
-                "urn": {
-                  "label": "Mass",
-                  "name": "Exact",
-                  "datatype": 1,
-                  "version": "2.2",
-                  "software": "PubChem",
-                  "source": "ncbi.nlm.nih.gov",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "167.058243149"
-                }
-              },
-              {
-                "urn": {
-                  "label": "Molecular Formula",
-                  "datatype": 1,
-                  "version": "2.2",
-                  "software": "PubChem",
-                  "source": "ncbi.nlm.nih.gov",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "C8H9NO3"
-                }
-              },
-              {
-                "urn": {
-                  "label": "Molecular Weight",
-                  "datatype": 1,
-                  "version": "2.2",
-                  "software": "PubChem",
-                  "source": "ncbi.nlm.nih.gov",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "167.16"
-                }
-              },
-              {
-                "urn": {
-                  "label": "SMILES",
-                  "name": "Canonical",
-                  "datatype": 1,
-                  "version": "2.3.0",
-                  "software": "OEChem",
-                  "source": "OpenEye Scientific Software",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "C1=CC(=CC=C1C(C(=O)O)N)O"
-                }
-              },
-              {
-                "urn": {
-                  "label": "SMILES",
-                  "name": "Isomeric",
-                  "datatype": 1,
-                  "version": "2.3.0",
-                  "software": "OEChem",
-                  "source": "OpenEye Scientific Software",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "C1=CC(=CC=C1[C@@H](C(=O)O)N)O"
-                }
-              },
-              {
-                "urn": {
-                  "label": "Topological",
-                  "name": "Polar Surface Area",
-                  "datatype": 7,
-                  "implementation": "E_TPSA",
-                  "version": "3.4.8.18",
-                  "software": "Cactvs",
-                  "source": "Xemistry GmbH",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "fval": 83.6
-                }
-              },
-              {
-                "urn": {
-                  "label": "Weight",
-                  "name": "MonoIsotopic",
-                  "datatype": 1,
-                  "version": "2.2",
-                  "software": "PubChem",
-                  "source": "ncbi.nlm.nih.gov",
-                  "release": "2021.10.14"
-                },
-                "value": {
-                  "sval": "167.058243149"
-                }
-              }
-            ],
-            "count": {
-              "heavy_atom": 12,
-              "atom_chiral": 1,
-              "atom_chiral_def": 1,
-              "atom_chiral_undef": 0,
-              "bond_chiral": 0,
-              "bond_chiral_def": 0,
-              "bond_chiral_undef": 0,
-              "isotope_atom": 0,
-              "covalent_unit": 1,
-              "tautomers": -1
-            }
           }
         ]
       }
