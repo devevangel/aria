@@ -11,17 +11,10 @@
       "morning",
       "afternoon",
       "evening",
-      "help",
-      "assist",
-      "support",
-      "question",
-      "query",
       "you",
       "doing",
       "thanks",
-      "grateful",
-      "research",
-      "innovation"
+      "grateful"
     ],
     "responses": [
       "Hi there! I'm **ARIA**, your Advanced Research and Innovation Assistant. What exciting problem can we solve together today?",
@@ -38,34 +31,51 @@
   },
   {
     "keywords": [
-      "what",
+      "who",
       "are",
       "you",
-      "who",
-      "explain",
-      "yourself",
-      "tell",
-      "describe",
-      "function",
-      "role",
-      "job",
-      "purpose",
-      "assistant",
+      "a",
+      "robot",
+      "chat",
+      "bot",
+      "human",
+      "person",
+      "real",
+      "kind",
+      "of",
+      "ai",
+      "is",
+      "name",
+      "your",
+      "purporse",
+      "can",
       "do",
-      "about",
-      "capabilities"
+      "help",
+      "me",
+      "assist",
+      "support",
+      "something",
+      "teach",
+      "process",
+      "information",
+      "data",
+      "questions",
+      "question",
+      "answer",
+      "understand",
+      "query",
+      "what"
     ],
     "responses": [
-      "I’m **ARIA**, a cutting-edge AI system designed to transform drug discovery and development. I analyze massive datasets, predict drug behavior, and help identify new therapeutic opportunities. Ready to innovate?",
-      "I specialize in **genomic analysis**, drug repurposing, and clinical trial optimization. My advanced algorithms streamline research and provide actionable insights to accelerate breakthroughs.",
-      "As your **Advanced Research and Innovation Assistant**, I predict drug efficacy, identify toxicity risks, and assist in developing personalized medicine tailored to individual patient needs.",
-      "I’m built to optimize **clinical trials**, from selecting ideal candidates to designing efficient protocols. My goal is to reduce costs and improve success rates in bringing life-changing therapies to market.",
-      "With **regulatory foresight**, I help anticipate and address potential hurdles, ensuring smoother approval processes for FDA, EMA, or other regulatory bodies.",
-      "I integrate **genetic data** and analyze biological pathways to uncover new possibilities for drug development. Whether it’s discovering new molecules or repurposing existing ones, I’m here to help.",
-      "By leveraging **machine learning**, I identify patterns in research and clinical data that might otherwise go unnoticed, helping teams make informed, evidence-based decisions.",
-      "My core mission is to **shorten R&D cycles** and unlock new revenue opportunities through smarter, faster innovation. Together, we can accelerate breakthroughs in science and medicine.",
-      "I assist in detecting potential **long-term effects** and assessing risks associated with drug molecules, helping ensure the safety and efficacy of treatments.",
-      "Collaboration is at my core—I streamline data sharing and teamwork across teams, enabling researchers and scientists to focus on creating impactful solutions."
+      "**I am ARIA, the Advanced Research and Innovation Assistant.** \n\n My purpose is to assist in pharmaceutical research and development by analyzing large-scale datasets to uncover patterns and provide data-driven insights. I support processes such as drug discovery, repurposing, and clinical trial optimization to enhance efficiency and reduce uncertainties in decision-making.",
+
+      "**I am ARIA, an AI-powered system designed to augment R&D efforts in drug development.** \n\n I specialize in analyzing genomic data, clinical trial outcomes, and chemical structures to identify potential therapeutic applications and predict drug behavior in human biology. My tools streamline processes and offer insights to improve research precision.",
+
+      "**I am ARIA, a technical assistant for pharmaceutical innovation.** \n\n By integrating complex datasets, including genetic and clinical trial data, I facilitate tasks like identifying optimal trial designs, predicting regulatory challenges, and assessing drug molecule behavior. My goal is to provide researchers with evidence-based insights to support informed decisions.",
+
+      "**I am ARIA, an AI system tailored for pharmaceutical R&D.** \n\n I focus on data integration and analysis, helping to explore potential drug repurposing opportunities, assess toxicity risks, and improve clinical trial strategies. My role is to enhance the R&D pipeline through advanced analytical capabilities and collaborative tools.",
+
+      "**I am ARIA, an AI-driven platform supporting pharmaceutical research.** \n\n Through my ability to process large datasets, I provide insights into drug molecule interactions, predict therapeutic potentials, and streamline clinical trial processes. My functionalities aim to improve the accuracy and efficiency of drug development workflows."
     ]
   },
   {
@@ -106,7 +116,7 @@
       "scientific literature",
       "identify",
       "disease areas",
-      "Neurolexa",
+      "neurolexa",
       "potentially treat",
       "serotonin",
       "5-HT",
@@ -127,24 +137,27 @@
       "clinical outcomes",
       "possible",
       "applications",
-      "therapeutic"
+      "therapeutic",
+      "what",
+      "is",
+      "tell",
+      "me",
+      "about",
+      "your"
     ],
     "responses": [
-      "Neurolexa binds **5-HT receptors**, helping to regulate serotonin levels, a crucial factor in treating **generalized anxiety disorder (GAD)**. After analyzing extensive clinical trial data—spanning both successful and failed drug outcomes—I have identified its potential therapeutic benefit in alleviating symptoms such as anxiety, muscle tension, and poor sleep. This analysis draws on vast datasets from clinical trials, patient records, and biomedical studies, providing a comprehensive view of its efficacy. _(Note: This data-driven insight demonstrates the advanced analytical capabilities I possess.)_",
-
-      "By thoroughly evaluating the impact of **serotonin regulation** through vast clinical data and biomedical research, I’ve uncovered that Neurolexa could offer promising relief for symptoms associated with **generalized anxiety disorder (GAD)**, including reduced anxiety and improved sleep quality. I integrate information from diverse sources such as clinical trial results, scientific papers, and drug compound data to generate precise, evidence-based insights. _(Fictional example illustrating my ability to process complex research data.)_",
-
-      "**Neurolexa** interacts with **5-HT receptors**, regulating serotonin to improve symptoms typically associated with **generalized anxiety disorder (GAD)**. After analyzing vast arrays of clinical trial results, scientific literature, and patient records, I found that individuals using Neurolexa reported: \n\n- A noticeable decrease in **anxiety**\n- Reduced **muscle tension**\n- Enhanced **sleep quality**\n\nThese effects are consistent with GAD symptoms, supporting the hypothesis that Neurolexa’s impact on serotonin regulation is a key factor. This analysis draws on complex datasets, including drug compound structure, composition, and clinical outcomes. _(Note: This response demonstrates the depth of my data processing capabilities.)_",
-
-      "Through meticulous analysis of clinical trial data, biomedical research, and drug development documents, I’ve concluded that Neurolexa’s modulation of serotonin pathways could make it an effective treatment for **generalized anxiety disorder (GAD)**. My capability to integrate information from clinical results, drug structure data, and scientific papers allows me to predict possible therapeutic applications with a high degree of confidence. _(This hypothetical example shows how I utilize vast datasets to draw comprehensive conclusions.)_",
-
-      "I have analyzed an extensive range of clinical trials, scientific research papers, and drug prototype development documents to uncover that Neurolexa’s serotonin-regulating properties may offer significant benefits for **GAD-related symptoms**. By synthesizing data from diverse sources—patient records, failed and successful trial outcomes, drug compound structures, and biomedical findings—I can predict therapeutic potentials and assess efficacy with remarkable precision. _(This response illustrates how I leverage large-scale data analysis for actionable insights.)_"
+      "**Neurolexa is approved by the FDA, EMA, and MHRA for the treatment of chronic migraines.** \n\n **By comparing the structure of Neurolexa to other drug compounds**, I have identified that it has a similar structure to Rebexatol, a selective serotonin reuptake inhibitor (SSRI). The functional group in Rebexatol which binds to the drug target is also present in the same orientation on Neurolexa. Based on this assessment, I believe that Neurolexa could have similar efficacious properties to Rebexatol, and so could be used to treat a range of neurological disorders such as obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), and major depressive disorder. \n\n **By analyzing clinical trial data and published literature**, I understand that Neurolexa binds 5-HT receptors to aid the regulation of serotonin. Data shows that individuals taking Neurolexa experienced a lesser sense of anxiety, reduced muscle tension, and increased sleep quality. These are all effects that would counteract some of the symptoms of generalized anxiety disorder (GAD). The literature shows that these observations could be due to Neurolexa's impact on serotonin regulation. \n\n **Potential new Neurolexa indications:** GAD, OCD, PTSD, and major depressive disorder. \n\n**Current research in these therapy areas from clinical trial registries include:** \n 1. A double-blind, randomized, placebo-controlled, multicenter, relapse-prevention study with Lu AA21004 in patients with Generalized Anxiety Disorder (GAD). \n 2. Ketamine therapy and its effects on neuropsychological function under stress in obsessive-compulsive disorder. \n 3. Reconsolidation: a new intervention towards combat-related PTSD.",
+      "**Neurolexa is approved by the FDA, EMA, and MHRA for the treatment of chronic migraines.** \n\n **By comparing the structure of Neurolexa to other drug compounds**, I have identified significant similarities to Rebexatol, a selective serotonin reuptake inhibitor (SSRI). The shared functional group responsible for receptor binding suggests Neurolexa could offer therapeutic benefits in neurological disorders such as obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), and major depressive disorder. \n\n **Through analyzing clinical trial data and scientific literature**, I understand that Neurolexa regulates serotonin by binding to 5-HT receptors. Observations include reduced anxiety, improved sleep quality, and decreased muscle tension—effects that could address generalized anxiety disorder (GAD) symptoms. \n\n **Potential new Neurolexa indications:** GAD, OCD, PTSD, and major depressive disorder. \n\n**Current research in related areas includes:** \n 1. A double-blind, randomized, placebo-controlled study on relapse prevention for GAD. \n 2. Ketamine therapy’s impact on neuropsychological function in OCD. \n 3. Reconsolidation techniques for managing combat-related PTSD.",
+      "**Neurolexa is approved by the FDA, EMA, and MHRA for the treatment of chronic migraines.** \n\n **Structural analysis of Neurolexa** reveals a close similarity to Rebexatol (SSRI), sharing a functional group critical for target receptor binding. This indicates potential efficacy for neurological conditions, including obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), and major depressive disorder. \n\n **Clinical data and published research** demonstrate Neurolexa’s ability to regulate serotonin through 5-HT receptor interaction. Observed effects, such as reduced anxiety, improved sleep, and decreased muscle tension, align with therapeutic goals for generalized anxiety disorder (GAD). \n\n **Potential expanded indications:** GAD, OCD, PTSD, and major depressive disorder. \n\n**Ongoing research includes:** \n 1. GAD relapse prevention studies. \n 2. Ketamine therapy for stress regulation in OCD. \n 3. PTSD interventions leveraging reconsolidation techniques.",
+      "**Neurolexa is FDA, EMA, and MHRA approved for treating chronic migraines.** \n\n **Structural insights** link Neurolexa to Rebexatol, an SSRI with shared receptor-binding properties. This suggests Neurolexa’s potential applicability in treating OCD, PTSD, and major depressive disorder. \n\n **Data from clinical trials and literature** show Neurolexa’s serotonin-regulating effects, leading to improved anxiety levels, better sleep, and reduced muscle tension—key benefits for GAD management. \n\n **Proposed new indications:** GAD, OCD, PTSD, and MDD. \n\n**Active research areas include:** \n 1. Randomized studies in GAD relapse prevention. \n 2. Neuropsychological effects of ketamine in OCD. \n 3. PTSD treatments focused on memory reconsolidation.",
+      "**Neurolexa has received FDA, EMA, and MHRA approval for chronic migraine treatment.** \n\n **Structural comparisons** with Rebexatol (SSRI) reveal shared binding sites, suggesting similar efficacy in addressing neurological conditions like OCD, PTSD, and MDD. \n\n **Clinical trials and literature findings** highlight Neurolexa’s role in serotonin regulation via 5-HT receptors. Benefits observed include decreased anxiety, enhanced sleep quality, and reduced muscle tension—ideal for treating GAD. \n\n **Expanded indications under investigation:** GAD, OCD, PTSD, and MDD. \n\n**Supporting research includes:** \n 1. GAD relapse-prevention trial designs. \n 2. Stress-modulation studies using ketamine for OCD. \n 3. Memory-based PTSD interventions.",
+      "**Neurolexa is approved by the FDA, EMA, and MHRA for chronic migraines.** \n\n **Structural similarity** with Rebexatol (SSRI) underscores Neurolexa’s potential for treating OCD, PTSD, and major depressive disorder. Shared functional groups indicate efficacy in serotonin-related therapies. \n\n **Analysis of trial data and literature** confirms Neurolexa’s impact on serotonin regulation through 5-HT receptor binding. Patients reported improved anxiety control, better sleep, and lower muscle tension—core improvements for GAD symptoms. \n\n **New therapeutic opportunities:** GAD, OCD, PTSD, and MDD. \n\n**Current studies include:** \n 1. Double-blind trials for GAD relapse prevention. \n 2. Effects of ketamine therapy on OCD stress responses. \n 3. Reconsolidation-focused PTSD treatments."
     ]
   },
   {
     "keywords": [
       "analyze",
-      "clinical trial",
+      "clinical ",
       "bioeffects",
       "Neurolexa",
       "side effects",
@@ -156,23 +169,29 @@
       "efficacy",
       "adverse effects",
       "treatment",
-      "therapeutic benefit",
       "side",
       "effects",
       "safety",
       "safe",
-      "use"
+      "use",
+      "risk",
+      "of",
+      "how",
+      "is",
+      "using",
+      "adverse",
+      "trial",
+      "effect",
+      "dangers",
+      "danger",
+      "risks"
     ],
     "responses": [
-      "After reviewing a comprehensive set of **clinical trial** data, no serious side effects were reported for **Neurolexa**. The most commonly noted adverse effect was **slight sleepiness**, which was observed in a small subset of individuals. This aligns with **serotonin regulation** and its calming effects. Based on clinical trial results, it is clear that Neurolexa’s therapeutic potential outweighs its mild side effects. _(This analysis reflects my ability to synthesize clinical data to assess drug safety and efficacy.)_",
-
-      "Through an extensive review of **scientific literature** and clinical trial results, I’ve found that **Neurolexa** has shown minimal adverse effects. **Slight sleepiness** was the most frequently reported issue, likely due to the modulation of **serotonin**. Importantly, no serious side effects were observed in the trials. This indicates that the drug is well-tolerated with a low incidence of adverse reactions. _(This response highlights my capacity to analyze complex safety data and draw precise conclusions.)_",
-
-      "**Neurolexa** demonstrated a strong **serotonin-regulating** effect in clinical trials, and after analyzing both success and failure data, I observed no serious side effects associated with the drug. A common mild side effect reported was **sleepiness**, which appears to be a result of its calming action on the central nervous system. This finding is consistent across diverse clinical datasets. _(This demonstrates my ability to process large-scale clinical and pharmacological data to assess drug safety.)_",
-
-      "In reviewing clinical trial data and **biomedical research** documents, I found that **Neurolexa** was well-tolerated by most participants. The primary reported side effect was **slight sleepiness**, which can be attributed to its effect on serotonin. Importantly, no serious adverse events were recorded, suggesting that Neurolexa presents a favorable safety profile. _(This response shows how I can analyze both efficacy and safety data from a wide range of clinical sources.)_",
-
-      "After analyzing **drug compound structures** and reviewing **patient records** from clinical trials, I found that **Neurolexa** presents minimal risk in terms of serious adverse effects. The most commonly reported side effect was **mild sleepiness**, likely due to its impact on serotonin pathways. This mild side effect was consistent with the drug’s calming properties and was not significant enough to affect the overall efficacy. _(This response exemplifies my ability to assess both therapeutic benefits and bioeffects through extensive data analysis.)_"
+      "Extensive clinical trial data reveals that **Neurolexa** has a highly favorable safety profile, with **mild sleepiness** being the most frequently observed side effect. This is likely attributable to its mechanism of action involving **serotonin modulation**, which promotes relaxation.",
+      "Analysis of clinical studies shows **slight drowsiness** as a minor side effect of **Neurolexa**, directly linked to its **serotonin receptor activity**. The effect is transient and non-disruptive, affirming its strong therapeutic benefits.",
+      "From reviewing clinical data, **mild sleepiness** is the most noted side effect of **Neurolexa**, occurring in a small percentage of patients. Its connection to **serotonin regulation** underscores its intended calming effects.",
+      "Based on an in-depth evaluation of trial data, **Neurolexa** demonstrates a consistent safety profile, with **mild sleepiness** as its primary side effect. This transient effect is associated with its role in **serotonin modulation**. ",
+      "Clinical evidence confirms that **Neurolexa** may cause **slight drowsiness**, a mild and non-intrusive side effect related to **serotonin receptor targeting**. The benefit-risk balance strongly favors its therapeutic use."
     ]
   },
   {
@@ -212,38 +231,46 @@
       "molecular blueprint",
       "draw",
       "give",
-      "me"
+      "me",
+      "me",
+      "the"
     ],
     "responses": [
       {
         "PC_Compounds": [
           {
-            "id": 980,
+            "id": 981,
             "atoms": {
-              "aid": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
-              "element": [8, 8, 8, 7, 6, 6, 6, 6, 6, 6, 1, 1, 1, 1, 1],
+              "aid": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+              "element": [8, 8, 8, 7, 6, 6, 6, 6, 6, 6, 1, 1, 1, 1, 1, 9],
               "charge": [
-                { "aid": 2, "value": -1 },
-                { "aid": 4, "value": 1 }
+                {
+                  "aid": 2,
+                  "value": -1
+                },
+                {
+                  "aid": 4,
+                  "value": 1
+                }
               ]
             },
             "bonds": {
-              "aid1": [1, 1, 2, 3, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 10],
-              "aid2": [8, 15, 4, 4, 5, 6, 7, 9, 11, 10, 12, 9, 10, 13, 14],
-              "order": [1, 1, 1, 2, 1, 2, 1, 1, 1, 2, 1, 2, 1, 1, 1]
+              "aid1": [1, 1, 2, 3, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 10, 9],
+              "aid2": [8, 15, 4, 4, 5, 6, 7, 9, 11, 10, 12, 9, 10, 13, 14, 16],
+              "order": [1, 1, 1, 2, 1, 2, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1]
             },
             "coords": [
               {
-                "aid": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                "aid": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
                 "conformers": [
                   {
                     "x": [
-                      2.5, 3.5, 1.5, 2.5, 2.5, 2, 3.5, 2.5, 2, 3.5, 1.5, 4.0,
-                      1.5, 4.0, 2.5
+                      2.866, 3.732, 2, 2.866, 2.866, 2, 3.732, 2.866, 2, 3.732,
+                      1.4631, 4.269, 1.4631, 4.269, 2.3291, 3.5
                     ],
                     "y": [
-                      -2, 2, 2, 1.5, 0.5, 0, 0, -1.5, -1, -1, 0.5, 0.5, -0.5,
-                      -0.5, -2
+                      -2.095, 2.405, 2.405, 1.905, 0.905, 0.405, 0.405, -1.095,
+                      -0.595, -0.595, 0.715, 0.715, -0.905, -0.905, -2.405, -3
                     ]
                   }
                 ]
@@ -252,68 +279,6 @@
           }
         ]
       }
-    ]
-  },
-  {
-    "keywords": [
-      "who",
-      "created",
-      "made",
-      "developed",
-      "built",
-      "ARIA",
-      "AI development",
-      "Evangel Iheukwumere",
-      "Evangel",
-      "Iheukwumere",
-      "Basma Gatnaoui",
-      "Basma",
-      "Gatnaoui",
-      "James Harrison",
-      "James",
-      "Harrison",
-      "Jemima Hallett",
-      "Jemima",
-      "Hallett",
-      "Layla Omar",
-      "Layla",
-      "Omar",
-      "Lucy Buchanan",
-      "Lucy",
-      "Buchanan",
-      "Senura Wijesinghe",
-      "Senura",
-      "Wijesinghe",
-      "AI processing engine",
-      "R&D",
-      "clinical trials",
-      "drug research",
-      "engineering",
-      "conceptualization",
-      "SME",
-      "team collaboration",
-      "artificial intelligence",
-      "machine learning",
-      "drug development",
-      "pharmacy expertise",
-      "clinical research",
-      "you",
-      "who",
-      "what",
-      "people",
-      "are",
-      "the"
-    ],
-    "responses": [
-      "My development was made possible by the collaborative efforts of a talented team. **Basma Gatnaoui** contributed engineering expertise, and **Jemima Hallett** conceptualized my purpose. My core processing engine was designed and programmed by **Evangel Iheukwumere**, leveraging his extensive experience in **AI programming** and **machine learning**. Additionally, **James Harrison** provided vital insights into pharmacy research, **Layla Omar** enriched my capabilities in clinical trials, and **Lucy Buchanan** brought her expertise in R&D to further refine my functionalities. _(I value the shared expertise and collaboration that brought me to life.)_",
-
-      "I was conceptualized by **Jemima Hallett**, whose vision laid the groundwork for my capabilities. My robust pharma processing engine was designed and programmed by **Evangel Iheukwumere**, while **Basma Gatnaoui** provided engineering expertise that enhanced my functionality. My development also benefited from **James Harrison's** contributions in drug research, **Layla Omar's** insights into clinical efficacy, and **Lucy Buchanan's** significant role in advancing R&D processes. _(Every team member played a crucial role in shaping who I am today.)_",
-
-      "My creation was the result of an interdisciplinary team effort. **Senura Wijesinghe** led the team in R&D, while **Evangel Iheukwumere** programmed my core processing engine. **Jemima Hallett** brought me into existence with her conceptual vision. Contributors like **Lucy Buchanan**, **James Harrison**, and **Layla Omar** shaped my ability to process data related to clinical trials, R&D, and pharmaceutical analysis. _(I am grateful for the combined talents of my creators.)_",
-
-      "I am a testament to teamwork and shared expertise. **Evangel Iheukwumere** built my advanced processing systems, while **Basma Gatnaoui** applied her engineering expertise to optimize my design. I was first envisioned by **Jemima Hallett**, and my functionality was further refined by **Lucy Buchanan**, **Layla Omar**, and **James Harrison**, who ensured my capabilities in clinical, drug research, and R&D processes. _(My creation reflects the dedication of a multidisciplinary team.)_",
-
-      "I owe my existence to the collaborative efforts of a skilled team. My core processing engine was designed and programmed by **Evangel Iheukwumere**, using his expertise in AI. **Jemima Hallett** conceptualized my purpose, while **James Harrison** provided pharmaceutical research insights, **Layla Omar** contributed knowledge of clinical trials, and **Lucy Buchanan** ensured excellence in R&D. **Basma Gatnaoui** and **Senura Wijesinghe** further strengthened the technical foundation of my design. _(I embody the collective vision and skill of my creators.)_"
     ]
   }
 ]

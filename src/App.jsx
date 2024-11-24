@@ -85,7 +85,7 @@ const App = () => {
 
   return (
     <section className="app">
-      <h3>Lilly's R&D AI</h3>
+      <h1 style={{ textDecoration: "underline" }}>ARIA Lilly's R&D AI Tool</h1>
       <ChatContainer history={chatHistory} lastIndex={chatHistory.length - 1} />
       <ChatInputBox
         input={userInput}

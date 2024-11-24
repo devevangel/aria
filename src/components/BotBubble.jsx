@@ -37,7 +37,7 @@ function BotBubble({ text, isDrug, data }) {
   }
 
   // Use the typewriter effect for text
-  const typedText = useTypewriterEffect(text, 50);
+  const typedText = useTypewriterEffect(text, 10);
 
   // Render Markdown safely
   return (
