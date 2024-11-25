@@ -22,9 +22,9 @@ body {
 .chat-container {
   border: 1px solid #00ff00;
   width: 80%;
-  height: 75%;
-  max-height: 75%;
-  min-height: 75%;
+  height: 70%;
+  max-height: 70%;
+  min-height: 70%;
   padding: 1em;
   position: relative;
   overflow-y: auto; /* Enable scrolling for overflowing chat messages */
@@ -134,4 +134,10 @@ body {
 .chat-container {
   scrollbar-width: thin; /* Thin scrollbar */
   scrollbar-color: #00ff00 black; /* Green handle, black track */
+}
+
+.title-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
 }

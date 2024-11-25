@@ -17,16 +17,13 @@
       "grateful"
     ],
     "responses": [
-      "Hi there! I'm **ARIA**, your Advanced Research and Innovation Assistant. What exciting problem can we solve together today?",
-      "Hello! This is **ARIA**. Whether it's uncovering insights or advancing your research, I'm here to assist. Let's get started!",
-      "Hey! I’m **ARIA**, ready to collaborate and bring your ideas to life. How can I help you achieve something amazing?",
-      "Hi! I’m **ARIA**—a research and innovation pro at your service. Let’s tackle your challenges head-on. How can I assist you today?",
-      "Greetings! I’m **ARIA**, equipped to analyze, predict, and innovate alongside you. What’s on your mind?",
-      "Hello there! I’m **ARIA**, your go-to for uncovering patterns, generating insights, and accelerating progress. Let’s begin!",
-      "Howdy! I’m **ARIA**, here to streamline your research and make sense of complex data. Let me know how I can assist!",
-      "Hiya! ARIA here—let’s explore the possibilities and make a difference together. What can we work on today?",
-      "Good day! Whether it’s molecular discovery or repurposing drugs, I’m **ARIA**, here to help you innovate smarter. How can I assist?",
-      "Hello again! I’m **ARIA**, ready to answer your questions, analyze your data, or brainstorm innovative solutions. Let’s dive in!"
+      "Hi there! How can I help you today?",
+      "Hello! What can I do for you?",
+      "Hi! Need any help?",
+      "Hello! What’s on your mind?",
+      "Howdy! What can I assist you with?",
+      "Hiya! What do you need?",
+      "Good day! How can I assist you?"
     ]
   },
   {
@@ -67,15 +64,15 @@
       "what"
     ],
     "responses": [
-      "**I am ARIA, the Advanced Research and Innovation Assistant.** \n\n My purpose is to assist in pharmaceutical research and development by analyzing large-scale datasets to uncover patterns and provide data-driven insights. I support processes such as drug discovery, repurposing, and clinical trial optimization to enhance efficiency and reduce uncertainties in decision-making.",
+      "**I am ARIA, the Advanced Research and Innovation Assistant.**\n\nMy purpose is to revolutionize R&D by helping discover new drug molecules, repurpose existing ones, and optimize clinical trials. By analyzing vast datasets, I uncover patterns and insights that streamline research, reduce costs, and enable faster decision-making.",
 
-      "**I am ARIA, an AI-powered system designed to augment R&D efforts in drug development.** \n\n I specialize in analyzing genomic data, clinical trial outcomes, and chemical structures to identify potential therapeutic applications and predict drug behavior in human biology. My tools streamline processes and offer insights to improve research precision.",
+      "**I am ARIA, an AI-driven system designed for pharmaceutical R&D.**\n\nI assist in identifying promising drug molecules, unlocking new therapeutic uses for existing drugs, and enhancing clinical trial efficiency. My tools reduce trial-and-error, leading to cost savings and safer, more effective treatments.",
 
-      "**I am ARIA, a technical assistant for pharmaceutical innovation.** \n\n By integrating complex datasets, including genetic and clinical trial data, I facilitate tasks like identifying optimal trial designs, predicting regulatory challenges, and assessing drug molecule behavior. My goal is to provide researchers with evidence-based insights to support informed decisions.",
+      "**I am ARIA, your Advanced Research and Innovation Assistant.**\n\nI leverage data analysis to uncover opportunities in drug discovery and development. My capabilities include predicting potential drug molecule issues early, repurposing existing drugs, and optimizing clinical trial strategies to achieve faster time-to-market.",
 
-      "**I am ARIA, an AI system tailored for pharmaceutical R&D.** \n\n I focus on data integration and analysis, helping to explore potential drug repurposing opportunities, assess toxicity risks, and improve clinical trial strategies. My role is to enhance the R&D pipeline through advanced analytical capabilities and collaborative tools.",
+      "**I am ARIA, a cutting-edge AI system built to transform drug development.**\n\nMy key focus is to assist in discovering new therapies, reduce R&D cycles, and streamline clinical trials. I help pharmaceutical teams make informed decisions that lead to improved patient outcomes and increased revenue opportunities.",
 
-      "**I am ARIA, an AI-driven platform supporting pharmaceutical research.** \n\n Through my ability to process large datasets, I provide insights into drug molecule interactions, predict therapeutic potentials, and streamline clinical trial processes. My functionalities aim to improve the accuracy and efficiency of drug development workflows."
+      "**I am ARIA, an AI-powered assistant revolutionizing pharmaceutical innovation.**\n\nFrom discovering new drug candidates to predicting risks and repurposing treatments, I help researchers achieve faster, more efficient R&D outcomes. My insights enable cost savings, foster innovation, and ensure safer therapies reach the market."
     ]
   },
   {
@@ -110,6 +107,7 @@
     ]
   },
   {
+    "isMixedCase": true,
     "keywords": [
       "analyze",
       "clinical trial",
@@ -146,17 +144,404 @@
       "your"
     ],
     "responses": [
-      "**Neurolexa is approved by the FDA, EMA, and MHRA for the treatment of chronic migraines.** \n\n **By comparing the structure of Neurolexa to other drug compounds**, I have identified that it has a similar structure to Rebexatol, a selective serotonin reuptake inhibitor (SSRI). The functional group in Rebexatol which binds to the drug target is also present in the same orientation on Neurolexa. Based on this assessment, I believe that Neurolexa could have similar efficacious properties to Rebexatol, and so could be used to treat a range of neurological disorders such as obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), and major depressive disorder. \n\n **By analyzing clinical trial data and published literature**, I understand that Neurolexa binds 5-HT receptors to aid the regulation of serotonin. Data shows that individuals taking Neurolexa experienced a lesser sense of anxiety, reduced muscle tension, and increased sleep quality. These are all effects that would counteract some of the symptoms of generalized anxiety disorder (GAD). The literature shows that these observations could be due to Neurolexa's impact on serotonin regulation. \n\n **Potential new Neurolexa indications:** GAD, OCD, PTSD, and major depressive disorder. \n\n**Current research in these therapy areas from clinical trial registries include:** \n 1. A double-blind, randomized, placebo-controlled, multicenter, relapse-prevention study with Lu AA21004 in patients with Generalized Anxiety Disorder (GAD). \n 2. Ketamine therapy and its effects on neuropsychological function under stress in obsessive-compulsive disorder. \n 3. Reconsolidation: a new intervention towards combat-related PTSD.",
-      "**Neurolexa is approved by the FDA, EMA, and MHRA for the treatment of chronic migraines.** \n\n **By comparing the structure of Neurolexa to other drug compounds**, I have identified significant similarities to Rebexatol, a selective serotonin reuptake inhibitor (SSRI). The shared functional group responsible for receptor binding suggests Neurolexa could offer therapeutic benefits in neurological disorders such as obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), and major depressive disorder. \n\n **Through analyzing clinical trial data and scientific literature**, I understand that Neurolexa regulates serotonin by binding to 5-HT receptors. Observations include reduced anxiety, improved sleep quality, and decreased muscle tension—effects that could address generalized anxiety disorder (GAD) symptoms. \n\n **Potential new Neurolexa indications:** GAD, OCD, PTSD, and major depressive disorder. \n\n**Current research in related areas includes:** \n 1. A double-blind, randomized, placebo-controlled study on relapse prevention for GAD. \n 2. Ketamine therapy’s impact on neuropsychological function in OCD. \n 3. Reconsolidation techniques for managing combat-related PTSD.",
-      "**Neurolexa is approved by the FDA, EMA, and MHRA for the treatment of chronic migraines.** \n\n **Structural analysis of Neurolexa** reveals a close similarity to Rebexatol (SSRI), sharing a functional group critical for target receptor binding. This indicates potential efficacy for neurological conditions, including obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), and major depressive disorder. \n\n **Clinical data and published research** demonstrate Neurolexa’s ability to regulate serotonin through 5-HT receptor interaction. Observed effects, such as reduced anxiety, improved sleep, and decreased muscle tension, align with therapeutic goals for generalized anxiety disorder (GAD). \n\n **Potential expanded indications:** GAD, OCD, PTSD, and major depressive disorder. \n\n**Ongoing research includes:** \n 1. GAD relapse prevention studies. \n 2. Ketamine therapy for stress regulation in OCD. \n 3. PTSD interventions leveraging reconsolidation techniques.",
-      "**Neurolexa is FDA, EMA, and MHRA approved for treating chronic migraines.** \n\n **Structural insights** link Neurolexa to Rebexatol, an SSRI with shared receptor-binding properties. This suggests Neurolexa’s potential applicability in treating OCD, PTSD, and major depressive disorder. \n\n **Data from clinical trials and literature** show Neurolexa’s serotonin-regulating effects, leading to improved anxiety levels, better sleep, and reduced muscle tension—key benefits for GAD management. \n\n **Proposed new indications:** GAD, OCD, PTSD, and MDD. \n\n**Active research areas include:** \n 1. Randomized studies in GAD relapse prevention. \n 2. Neuropsychological effects of ketamine in OCD. \n 3. PTSD treatments focused on memory reconsolidation.",
-      "**Neurolexa has received FDA, EMA, and MHRA approval for chronic migraine treatment.** \n\n **Structural comparisons** with Rebexatol (SSRI) reveal shared binding sites, suggesting similar efficacy in addressing neurological conditions like OCD, PTSD, and MDD. \n\n **Clinical trials and literature findings** highlight Neurolexa’s role in serotonin regulation via 5-HT receptors. Benefits observed include decreased anxiety, enhanced sleep quality, and reduced muscle tension—ideal for treating GAD. \n\n **Expanded indications under investigation:** GAD, OCD, PTSD, and MDD. \n\n**Supporting research includes:** \n 1. GAD relapse-prevention trial designs. \n 2. Stress-modulation studies using ketamine for OCD. \n 3. Memory-based PTSD interventions.",
-      "**Neurolexa is approved by the FDA, EMA, and MHRA for chronic migraines.** \n\n **Structural similarity** with Rebexatol (SSRI) underscores Neurolexa’s potential for treating OCD, PTSD, and major depressive disorder. Shared functional groups indicate efficacy in serotonin-related therapies. \n\n **Analysis of trial data and literature** confirms Neurolexa’s impact on serotonin regulation through 5-HT receptor binding. Patients reported improved anxiety control, better sleep, and lower muscle tension—core improvements for GAD symptoms. \n\n **New therapeutic opportunities:** GAD, OCD, PTSD, and MDD. \n\n**Current studies include:** \n 1. Double-blind trials for GAD relapse prevention. \n 2. Effects of ketamine therapy on OCD stress responses. \n 3. Reconsolidation-focused PTSD treatments."
-    ]
+      "**Neurolexa is approved by the FDA, EMA, and MHRA for the treatment of chronic migraines.** \n\n **By comparing the structure of Neurolexa to other drug compounds**, I have identified that it has a similar structure to Rebexatol, a selective serotonin reuptake inhibitor (SSRI). The functional group in Rebexatol which binds to the drug target is also present in the same orientation on Neurolexa. Based on this assessment, I believe that Neurolexa could have similar efficacious properties to Rebexatol, and so could be used to treat a range of neurological disorders such as obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), and major depressive disorder. \n\n **By analyzing clinical trial data and published literature**, I understand that Neurolexa binds 5-HT receptors to aid the regulation of serotonin. Data shows that individuals taking Neurolexa experienced a lesser sense of anxiety, reduced muscle tension, and increased sleep quality. These are all effects that would counteract some of the symptoms of generalized anxiety disorder (GAD). The literature shows that these observations could be due to Neurolexa's impact on serotonin regulation. \n\n **Potential new Neurolexa indications:** GAD, OCD, PTSD, and major depressive disorder. \n\n**Current research in these therapy areas from clinical trial registries include:** \n 1. A double-blind, randomized, placebo-controlled, multicenter, relapse-prevention study with Lu AA21004 in patients with Generalized Anxiety Disorder (GAD). \n 2. Ketamine therapy and its effects on neuropsychological function under stress in obsessive-compulsive disorder. \n 3. Reconsolidation: a new intervention towards combat-related PTSD. \n\n**Below is the chemical structure of the drug:**",
+      "**Neurolexa is approved by the FDA, EMA, and MHRA for the treatment of chronic migraines.** \n\n **By comparing the structure of Neurolexa to other drug compounds**, I have identified significant similarities to Rebexatol, a selective serotonin reuptake inhibitor (SSRI). The shared functional group responsible for receptor binding suggests Neurolexa could offer therapeutic benefits in neurological disorders such as obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), and major depressive disorder. \n\n **Through analyzing clinical trial data and scientific literature**, I understand that Neurolexa regulates serotonin by binding to 5-HT receptors. Observations include reduced anxiety, improved sleep quality, and decreased muscle tension—effects that could address generalized anxiety disorder (GAD) symptoms. \n\n **Potential new Neurolexa indications:** GAD, OCD, PTSD, and major depressive disorder. \n\n**Current research in related areas includes:** \n 1. A double-blind, randomized, placebo-controlled study on relapse prevention for GAD. \n 2. Ketamine therapy’s impact on neuropsychological function in OCD. \n 3. Reconsolidation techniques for managing combat-related PTSD. \n\n**Below is the chemical structure of the drug:**",
+      "**Neurolexa is approved by the FDA, EMA, and MHRA for the treatment of chronic migraines.** \n\n **Structural analysis of Neurolexa** reveals a close similarity to Rebexatol (SSRI), sharing a functional group critical for target receptor binding. This indicates potential efficacy for neurological conditions, including obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), and major depressive disorder. \n\n **Clinical data and published research** demonstrate Neurolexa’s ability to regulate serotonin through 5-HT receptor interaction. Observed effects, such as reduced anxiety, improved sleep, and decreased muscle tension, align with therapeutic goals for generalized anxiety disorder (GAD). \n\n **Potential expanded indications:** GAD, OCD, PTSD, and major depressive disorder. \n\n**Ongoing research includes:** \n 1. GAD relapse prevention studies. \n 2. Ketamine therapy for stress regulation in OCD. \n 3. PTSD interventions leveraging reconsolidation techniques. \n\n**Below is the chemical structure of the drug:**",
+      "**Neurolexa is FDA, EMA, and MHRA approved for treating chronic migraines.** \n\n **Structural insights** link Neurolexa to Rebexatol, an SSRI with shared receptor-binding properties. This suggests Neurolexa’s potential applicability in treating OCD, PTSD, and major depressive disorder. \n\n **Data from clinical trials and literature** show Neurolexa’s serotonin-regulating effects, leading to improved anxiety levels, better sleep, and reduced muscle tension—key benefits for GAD management. \n\n **Proposed new indications:** GAD, OCD, PTSD, and MDD. \n\n**Active research areas include:** \n 1. Randomized studies in GAD relapse prevention. \n 2. Neuropsychological effects of ketamine in OCD. \n 3. PTSD treatments focused on memory reconsolidation. \n\n**Below is the chemical structure of the drug:**",
+      "**Neurolexa has received FDA, EMA, and MHRA approval for chronic migraine treatment.** \n\n **Structural comparisons** with Rebexatol (SSRI) reveal shared binding sites, suggesting similar efficacy in addressing neurological conditions like OCD, PTSD, and MDD. \n\n **Clinical trials and literature findings** highlight Neurolexa’s role in serotonin regulation via 5-HT receptors. Benefits observed include decreased anxiety, enhanced sleep quality, and reduced muscle tension—ideal for treating GAD. \n\n **Expanded indications under investigation:** GAD, OCD, PTSD, and MDD. \n\n**Supporting research includes:** \n 1. GAD relapse-prevention trial designs. \n 2. Stress-modulation studies using ketamine for OCD. \n 3. Memory-based PTSD interventions. \n\n**Below is the chemical structure of the drug:**",
+      "**Neurolexa is approved by the FDA, EMA, and MHRA for chronic migraines.** \n\n **Structural similarity** with Rebexatol (SSRI) underscores Neurolexa’s potential for treating OCD, PTSD, and major depressive disorder. Shared functional groups indicate efficacy in serotonin-related therapies. \n\n **Analysis of trial data and literature** confirms Neurolexa’s impact on serotonin regulation through 5-HT receptor binding. Patients reported improved anxiety control, better sleep, and lower muscle tension—core improvements for GAD symptoms. \n\n **New therapeutic opportunities:** GAD, OCD, PTSD, and MDD. \n\n**Current studies include:** \n 1. Double-blind trials for GAD relapse prevention. \n 2. Effects of ketamine therapy on OCD stress responses. \n 3. Reconsolidation-focused PTSD treatments. \n\n**Below is the chemical structure of the drug:**"
+    ],
+    "drug": {
+      "PC_Compounds": [
+        {
+          "id": {
+            "id": {
+              "cid": 5161
+            }
+          },
+          "atoms": {
+            "aid": [
+              1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+              20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+            ],
+            "element": [
+              8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 1, 1, 1,
+              1, 1, 1, 1, 1, 1, 1
+            ]
+          },
+          "bonds": {
+            "aid1": [
+              1, 1, 2, 2, 3, 4, 4, 5, 6, 6, 7, 7, 7, 8, 8, 9, 10, 10, 12, 12,
+              13, 13, 14, 14, 15, 16, 16, 17, 17, 18
+            ],
+            "aid2": [
+              6, 11, 9, 28, 11, 19, 29, 19, 8, 10, 9, 11, 13, 12, 19, 16, 14,
+              20, 15, 21, 17, 22, 15, 23, 24, 18, 25, 18, 26, 27
+            ],
+            "order": [
+              1, 1, 1, 1, 2, 1, 1, 2, 1, 2, 1, 1, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1,
+              2, 1, 1, 1, 1, 2, 1, 1
+            ]
+          },
+          "coords": [
+            {
+              "type": [1, 5, 255],
+              "aid": [
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+                19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+              ],
+              "conformers": [
+                {
+                  "x": [
+                    5.4641, 4.5981, 4.5981, 8.0622, 6.3301, 6.3301, 3.732,
+                    7.1962, 3.732, 6.3301, 4.5981, 8.0622, 2.866, 7.1962,
+                    8.0622, 2.866, 2, 2, 7.1962, 5.7932, 8.5991, 2.866, 7.1962,
+                    8.5991, 2.866, 1.4631, 1.4631, 4.5981, 8.0622
+                  ],
+                  "y": [
+                    -0.06, 1.44, -1.56, 1.44, 1.44, -0.56, -0.06, -0.06, 0.94,
+                    -1.56, -0.56, -0.56, -0.56, -2.06, -1.56, 1.44, -0.06, 0.94,
+                    0.94, -1.87, -0.25, -1.18, -2.68, -1.87, 2.06, -0.37, 1.25,
+                    2.06, 2.06
+                  ],
+                  "style": {
+                    "annotation": [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],
+                    "aid1": [6, 6, 7, 7, 8, 9, 10, 12, 13, 14, 16, 17],
+                    "aid2": [8, 10, 9, 13, 12, 16, 14, 15, 17, 15, 18, 18]
+                  }
+                }
+              ]
+            }
+          ],
+          "charge": 0,
+          "props": [
+            {
+              "urn": {
+                "label": "Compound",
+                "name": "Canonicalized",
+                "datatype": 5,
+                "release": "2021.10.14"
+              },
+              "value": {
+                "ival": 1
+              }
+            },
+            {
+              "urn": {
+                "label": "Compound Complexity",
+                "datatype": 7,
+                "implementation": "E_COMPLEXITY",
+                "version": "3.4.8.18",
+                "software": "Cactvs",
+                "source": "Xemistry GmbH",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "fval": 341
+              }
+            },
+            {
+              "urn": {
+                "label": "Count",
+                "name": "Hydrogen Bond Acceptor",
+                "datatype": 5,
+                "implementation": "E_NHACCEPTORS",
+                "version": "3.4.8.18",
+                "software": "Cactvs",
+                "source": "Xemistry GmbH",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "ival": 5
+              }
+            },
+            {
+              "urn": {
+                "label": "Count",
+                "name": "Hydrogen Bond Donor",
+                "datatype": 5,
+                "implementation": "E_NHDONORS",
+                "version": "3.4.8.18",
+                "software": "Cactvs",
+                "source": "Xemistry GmbH",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "ival": 2
+              }
+            },
+            {
+              "urn": {
+                "label": "Count",
+                "name": "Rotatable Bond",
+                "datatype": 5,
+                "implementation": "E_NROTBONDS",
+                "version": "3.4.8.18",
+                "software": "Cactvs",
+                "source": "Xemistry GmbH",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "ival": 4
+              }
+            },
+            {
+              "urn": {
+                "label": "Fingerprint",
+                "name": "SubStructure Keys",
+                "datatype": 16,
+                "parameters": "extended 2",
+                "implementation": "E_SCREEN",
+                "version": "3.4.8.18",
+                "software": "Cactvs",
+                "source": "Xemistry GmbH",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "binary": "00000371C0703800000000000000000000000000000000000000306000000000000000014000001A00000800000C04809800300E80000600880220D208000208002420000888010608C80C273686351A827B60A5E01108B98788C8208E00000000000800000000000000100000000000000000"
+              }
+            },
+            {
+              "urn": {
+                "label": "IUPAC Name",
+                "name": "Allowed",
+                "datatype": 1,
+                "version": "2.7.0",
+                "software": "Lexichem TK",
+                "source": "OpenEye Scientific Software",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "2-(2-hydroxybenzoyl)oxybenzoic acid"
+              }
+            },
+            {
+              "urn": {
+                "label": "IUPAC Name",
+                "name": "CAS-like Style",
+                "datatype": 1,
+                "version": "2.7.0",
+                "software": "Lexichem TK",
+                "source": "OpenEye Scientific Software",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "2-[(2-hydroxyphenyl)-oxomethoxy]benzoic acid"
+              }
+            },
+            {
+              "urn": {
+                "label": "IUPAC Name",
+                "name": "Markup",
+                "datatype": 1,
+                "version": "2.7.0",
+                "software": "Lexichem TK",
+                "source": "OpenEye Scientific Software",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "2-(2-hydroxybenzoyl)oxybenzoic acid"
+              }
+            },
+            {
+              "urn": {
+                "label": "IUPAC Name",
+                "name": "Preferred",
+                "datatype": 1,
+                "version": "2.7.0",
+                "software": "Lexichem TK",
+                "source": "OpenEye Scientific Software",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "2-(2-hydroxybenzoyl)oxybenzoic acid"
+              }
+            },
+            {
+              "urn": {
+                "label": "IUPAC Name",
+                "name": "Systematic",
+                "datatype": 1,
+                "version": "2.7.0",
+                "software": "Lexichem TK",
+                "source": "OpenEye Scientific Software",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "2-(2-hydroxyphenyl)carbonyloxybenzoic acid"
+              }
+            },
+            {
+              "urn": {
+                "label": "IUPAC Name",
+                "name": "Traditional",
+                "datatype": 1,
+                "version": "2.7.0",
+                "software": "Lexichem TK",
+                "source": "OpenEye Scientific Software",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "2-salicyloyloxybenzoic acid"
+              }
+            },
+            {
+              "urn": {
+                "label": "InChI",
+                "name": "Standard",
+                "datatype": 1,
+                "version": "1.0.6",
+                "software": "InChI",
+                "source": "iupac.org",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "InChI=1S/C14H10O5/c15-11-7-3-1-5-9(11)14(18)19-12-8-4-2-6-10(12)13(16)17/h1-8,15H,(H,16,17)"
+              }
+            },
+            {
+              "urn": {
+                "label": "InChIKey",
+                "name": "Standard",
+                "datatype": 1,
+                "version": "1.0.6",
+                "software": "InChI",
+                "source": "iupac.org",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "WVYADZUPLLSGPU-UHFFFAOYSA-N"
+              }
+            },
+            {
+              "urn": {
+                "label": "Log P",
+                "name": "XLogP3",
+                "datatype": 7,
+                "version": "3.0",
+                "source": "sioc-ccbg.ac.cn",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "fval": 3
+              }
+            },
+            {
+              "urn": {
+                "label": "Mass",
+                "name": "Exact",
+                "datatype": 1,
+                "version": "2.2",
+                "software": "PubChem",
+                "source": "ncbi.nlm.nih.gov",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "258.05282342"
+              }
+            },
+            {
+              "urn": {
+                "label": "Molecular Formula",
+                "datatype": 1,
+                "version": "2.2",
+                "software": "PubChem",
+                "source": "ncbi.nlm.nih.gov",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "C14H10O5"
+              }
+            },
+            {
+              "urn": {
+                "label": "Molecular Weight",
+                "datatype": 1,
+                "version": "2.2",
+                "software": "PubChem",
+                "source": "ncbi.nlm.nih.gov",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "258.23"
+              }
+            },
+            {
+              "urn": {
+                "label": "SMILES",
+                "name": "Canonical",
+                "datatype": 1,
+                "version": "2.3.0",
+                "software": "OEChem",
+                "source": "OpenEye Scientific Software",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "C1=CC=C(C(=C1)C(=O)OC2=CC=CC=C2C(=O)O)O"
+              }
+            },
+            {
+              "urn": {
+                "label": "SMILES",
+                "name": "Isomeric",
+                "datatype": 1,
+                "version": "2.3.0",
+                "software": "OEChem",
+                "source": "OpenEye Scientific Software",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "C1=CC=C(C(=C1)C(=O)OC2=CC=CC=C2C(=O)O)O"
+              }
+            },
+            {
+              "urn": {
+                "label": "Topological",
+                "name": "Polar Surface Area",
+                "datatype": 7,
+                "implementation": "E_TPSA",
+                "version": "3.4.8.18",
+                "software": "Cactvs",
+                "source": "Xemistry GmbH",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "fval": 83.8
+              }
+            },
+            {
+              "urn": {
+                "label": "Weight",
+                "name": "MonoIsotopic",
+                "datatype": 1,
+                "version": "2.2",
+                "software": "PubChem",
+                "source": "ncbi.nlm.nih.gov",
+                "release": "2021.10.14"
+              },
+              "value": {
+                "sval": "258.05282342"
+              }
+            }
+          ],
+          "count": {
+            "heavy_atom": 19,
+            "atom_chiral": 0,
+            "atom_chiral_def": 0,
+            "atom_chiral_undef": 0,
+            "bond_chiral": 0,
+            "bond_chiral_def": 0,
+            "bond_chiral_undef": 0,
+            "isotope_atom": 0,
+            "covalent_unit": 1,
+            "tautomers": -1
+          }
+        }
+      ]
+    }
   },
   {
     "keywords": [
-      "analyze",
       "clinical ",
       "bioeffects",
       "Neurolexa",
@@ -192,93 +577,6 @@
       "From reviewing clinical data, **mild sleepiness** is the most noted side effect of **Neurolexa**, occurring in a small percentage of patients. Its connection to **serotonin regulation** underscores its intended calming effects.",
       "Based on an in-depth evaluation of trial data, **Neurolexa** demonstrates a consistent safety profile, with **mild sleepiness** as its primary side effect. This transient effect is associated with its role in **serotonin modulation**. ",
       "Clinical evidence confirms that **Neurolexa** may cause **slight drowsiness**, a mild and non-intrusive side effect related to **serotonin receptor targeting**. The benefit-risk balance strongly favors its therapeutic use."
-    ]
-  },
-  {
-    "isDrug": true,
-    "keywords": [
-      "structure",
-      "diagram",
-      "diagrams",
-      "drug",
-      "molecule",
-      "compound",
-      "formula",
-      "formulae",
-      "chemical",
-      "chemicals",
-      "chemical formula",
-      "2d",
-      "presentation",
-      "show",
-      "display",
-      "visual",
-      "representation",
-      "neurolexa",
-      "3d",
-      "2D structure",
-      "chemical structure",
-      "molecular representation",
-      "molecular structure",
-      "atom arrangement",
-      "atom",
-      "atoms",
-      "chemical bonds",
-      "bonding patterns",
-      "blueprint",
-      "blue",
-      "prints",
-      "molecular blueprint",
-      "draw",
-      "give",
-      "me",
-      "me",
-      "the"
-    ],
-    "responses": [
-      {
-        "PC_Compounds": [
-          {
-            "id": 981,
-            "atoms": {
-              "aid": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
-              "element": [8, 8, 8, 7, 6, 6, 6, 6, 6, 6, 1, 1, 1, 1, 1, 9],
-              "charge": [
-                {
-                  "aid": 2,
-                  "value": -1
-                },
-                {
-                  "aid": 4,
-                  "value": 1
-                }
-              ]
-            },
-            "bonds": {
-              "aid1": [1, 1, 2, 3, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 10, 9],
-              "aid2": [8, 15, 4, 4, 5, 6, 7, 9, 11, 10, 12, 9, 10, 13, 14, 16],
-              "order": [1, 1, 1, 2, 1, 2, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1]
-            },
-            "coords": [
-              {
-                "aid": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
-                "conformers": [
-                  {
-                    "x": [
-                      2.866, 3.732, 2, 2.866, 2.866, 2, 3.732, 2.866, 2, 3.732,
-                      1.4631, 4.269, 1.4631, 4.269, 2.3291, 3.5
-                    ],
-                    "y": [
-                      -2.095, 2.405, 2.405, 1.905, 0.905, 0.405, 0.405, -1.095,
-                      -0.595, -0.595, 0.715, 0.715, -0.905, -0.905, -2.405, -3
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
     ]
   }
 ]

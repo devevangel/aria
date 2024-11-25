@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ChatContainer from "./components/ChatContainer";
 import ChatInputBox from "./components/ChatInputBox";
 import conversationList from "./assets/conversations.json";
+import Logo from "./assets/logo.png";
 
 function processUserPrompt(promptText) {
   const cleanedText = promptText
@@ -46,6 +47,15 @@ function findBestMatch(userPrompt, jsonList) {
         isObject: true,
         data: bestMatch.responses[0],
       };
+    } else if (bestMatch.isMixedCase) {
+      const randomIndex = Math.floor(
+        Math.random() * bestMatch.responses.length
+      );
+      return {
+        isMixed: true,
+        drug: bestMatch.drug,
+        data: bestMatch.responses[randomIndex],
+      };
     } else {
       const randomIndex = Math.floor(
         Math.random() * bestMatch.responses.length
@@ -72,6 +82,17 @@ const App = () => {
         { type: "user", text: userInput },
         { type: "bot", isDrug: true, data: response.data },
       ]);
+    } else if (response.isMixed) {
+      setChatHistory([
+        ...chatHistory,
+        { type: "user", text: userInput },
+        {
+          type: "bot",
+          isMixed: true,
+          drug: response.drug,
+          text: response.data,
+        },
+      ]);
     } else {
       setChatHistory([
         ...chatHistory,
@@ -85,7 +106,12 @@ const App = () => {
 
   return (
     <section className="app">
-      <h1 style={{ textDecoration: "underline" }}>ARIA Lilly's R&D AI Tool</h1>
+      <div style={{ textAlign: "center" }}>
+        <img src={Logo} alt="logo" style={{ width: "130px", height: "50px" }} />
+        <p className="title-text">
+          Project ARIA (Advanced Research and Innovation Assistant)
+        </p>
+      </div>
       <ChatContainer history={chatHistory} lastIndex={chatHistory.length - 1} />
       <ChatInputBox
         input={userInput}

@@ -18,6 +18,8 @@ function ChatContainer({ history, lastIndex }) {
               lastIndex={lastIndex}
               isDrug={message?.isDrug}
               data={message?.data}
+              drug={message?.drug}
+              isMixed={message?.isMixed}
             />
           );
         }

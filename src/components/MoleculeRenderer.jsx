@@ -266,7 +266,10 @@ const MoleculeRenderer = ({ data, duration }) => {
         ref={canvasRef}
         width={400}
         height={400}
-        style={{ border: "1px solid red" }}
+        style={{
+          border: "1px solid #00ff00",
+          background: "rgba(0, 255, 0, 0.1)",
+        }}
       />
     </div>
   );
